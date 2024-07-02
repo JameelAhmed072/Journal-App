@@ -1,0 +1,15 @@
+
+
+spring:
+  application:
+    name: myFirstProject-with-eDigest
+  data:
+    mongodb:
+      uri: mongodb+srv://Waqar:waqar123@cluster0.mrnm144.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 9091
+#  servlet:
+#    context-path: /journal

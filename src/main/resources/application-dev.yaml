@@ -1,0 +1,30 @@
+
+
+spring:
+  application:
+    name: myFirstProject-with-eDigest
+  redis:
+#    host: localhost
+#    port: 6379
+    host: redis-15797.c278.us-east-1-4.ec2.redns.redis-cloud.com
+    port: 15797
+    password: lLKMwpc6rnr0836RcEP4e7W7ACXsKMyv
+  data:
+    mongodb:
+      uri: mongodb+srv://Waqar:waqar123@cluster0.mrnm144.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ahmedjameel072@gmail.com
+    password: qcpi gfbn vsam tdon
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 9090
